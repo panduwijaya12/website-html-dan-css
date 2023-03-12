@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: blue;
+    height: 100vh;
+    background-image: url("img.JPG");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile>img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+.profile>p{
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.link>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    border: 3px solid rgb(60, 0, 93); 
+    background-color: rgb(70, 0, 136);
+    border-radius: 7px;
+    margin: 5px 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.link>a:hover {
+    background-color: rgb(193, 154, 255);
+}
+
+.web {
+    text-align: center;
+}
+
+.web>i {
+    color: aliceblue;
+    font-size: 10px;
+}
